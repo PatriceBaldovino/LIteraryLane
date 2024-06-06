@@ -1,0 +1,50 @@
+<!-- res/layout/activity_signup.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"> <!-- Adjust padding as needed -->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alexbrush"
+        android:text="Sign Up"
+        android:textSize="45sp"
+        android:layout_marginBottom="32dp" /> <!-- Adjust margin as needed -->
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" /> <!-- Adjust margin as needed -->
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" /> <!-- Adjust margin as needed -->
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" /> <!-- Adjust margin as needed -->
+
+    <ImageButton
+        android:id="@+id/buttonSave"
+        android:layout_width="204dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="signup button"
+        android:background="@drawable/signup_btn" /> <!-- Adjust margin as needed -->
+</LinearLayout>

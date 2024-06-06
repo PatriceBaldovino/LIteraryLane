@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Literary Lane</string>
+    <string name="cover">Cover</string>
+    <string name="title_place_holder">Title Place Holder</string>
+    <string name="author_placeholder">Author PlaceHolder</string>
+    <string name="appintroduction">Welcome to Literary Lane, your portal to a world of immersive stories and adventures. Enjoy exploring
+        our collection of tales.</string>
+</resources>

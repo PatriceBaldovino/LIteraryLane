@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme" parent="Theme.LiteraryLane">
+        <item name="android:windowBackground">@color/bodycolor</item>
+
+    </style>
+</resources>
